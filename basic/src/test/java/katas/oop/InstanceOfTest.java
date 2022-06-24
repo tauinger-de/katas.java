@@ -6,7 +6,8 @@ import org.junit.jupiter.api.Test;
 public class InstanceOfTest {
 
     /**
-     * We will use OOP practices to instantiate a Cat and a Shark and check that they are of the correct types.
+     * We will use OOP practices to instantiate a Cat and a Shark
+     * and check that they are of the correct types.
      *
      * The type hierarchy is expected to be like this:
      *
@@ -41,21 +42,21 @@ class Vertebrate {
 }
 
 
-class Mammal extends Vertebrate {
+class Mammal {
 }
 
 
-class Cat extends Mammal {
+class Cat  {
     public Cat(String name) {
     }
 }
 
 
-class Fish extends Vertebrate {
+class Fish {
 }
 
 
-class Shark extends Fish {
+class Shark {
     public Shark(String name) {
     }
 }
