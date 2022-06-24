@@ -13,6 +13,7 @@ This module contains katas focussed on data types, operators, simple OOP
 
 ### kata collections
 
+* https://codingbat.com/java
 * https://adventofcode.com
 * https://github.com/gamontal/awesome-katas
 
