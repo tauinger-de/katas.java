@@ -5,6 +5,10 @@ import org.junit.jupiter.api.Test;
 
 public class MiddleThreeTest {
 
+    /**
+     * Given a string of odd length, return the string length 3 from its middle, so "Candy" yields "and".
+     * The string length will be at least 3 -- otherwise an IllegalArgumentException must be thrown.
+     */
     @Test
     void middleThreeTest() {
         // positive check #1
