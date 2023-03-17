@@ -6,15 +6,18 @@ import org.junit.jupiter.api.Test;
 public class InstanceOfTest {
 
     /**
-     * We will use OOP practices to instantiate a Cat and a Shark
-     * and check that they are of the correct types.
-     *
+     * We will use OOP practices to instantiate a Cat and a Shark and check that they are of the
+     * correct types.
+     * <p>
      * The type hierarchy is expected to be like this:
-     *
-     * Vertebrate --> Mammal --> Cat
-     *            \-> Fish --> Shark
-     *
+     * <p>
+     * Vertebrate --> Mammal --> Cat \-> Fish --> Shark
+     * <p>
      * Each vertebrate has a name.
+     * <p>
+     * Task: Add `extends` clauses and other required statements to the classes below to make the
+     * test work! Also uncomment the two lines below -- they are commented to make the yet unfinished
+     * code compile.
      */
     @Test
     void instanceOfTest() {
@@ -38,7 +41,7 @@ public class InstanceOfTest {
 }
 
 
-class Vertebrate {
+interface Vertebrate {
 }
 
 
@@ -46,7 +49,7 @@ class Mammal {
 }
 
 
-class Cat  {
+class Cat {
     public Cat(String name) {
     }
 }
