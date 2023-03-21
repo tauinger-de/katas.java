@@ -10,14 +10,16 @@ public class InstanceOfTest {
      * correct types.
      * <p>
      * The type hierarchy is expected to be like this:
-     * <p>
-     * Vertebrate --> Mammal --> Cat \-> Fish --> Shark
+     * <p><pre>
+     * Vertebrate --> Mammal --> Cat
+     *            \-> Fish --> Shark
+     * </pre>
      * <p>
      * Each vertebrate has a name.
      * <p>
      * Task: Add `extends` clauses and other required statements to the classes below to make the
-     * test work! Also uncomment the two lines below -- they are commented to make the yet unfinished
-     * code compile.
+     * test work! Also uncomment the two lines below -- they are commented to make the yet
+     * unfinished code compile.
      */
     @Test
     void instanceOfTest() {
