@@ -5,10 +5,11 @@ import org.junit.jupiter.api.Test;
 
 public class DefaultMethodsTest {
 
+    @SuppressWarnings("DataFlowIssue")
     @Test
     void urlGenerator() {
         // given
-        Generator gen;  // todo fix this
+        Generator gen = null;  // todo fix this
 
         // when
         var url = gen.buildUrl();
