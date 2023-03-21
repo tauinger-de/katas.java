@@ -36,6 +36,7 @@ public class InstanceOfTest {
         Shark shark = new Shark("Bruce");
         Assertions.assertThat(shark).isInstanceOf(Fish.class);
         Assertions.assertThat(shark).isInstanceOf(Shark.class);
+        Assertions.assertThat(shark).isInstanceOf(UnderWaterAnimal.class);
         Assertions.assertThat(shark).isNotInstanceOf(Mammal.class);
 
         // TODO feel free to add a name check for the shark!
@@ -43,7 +44,7 @@ public class InstanceOfTest {
 }
 
 
-interface Vertebrate {
+class Vertebrate {
 }
 
 
@@ -64,4 +65,8 @@ class Fish {
 class Shark {
     public Shark(String name) {
     }
+}
+
+interface UnderWaterAnimal {
+
 }
