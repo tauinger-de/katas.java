@@ -8,7 +8,7 @@ public class DefaultMethodsTest {
     @Test
     void urlGenerator() {
         // given
-        Generator gen;
+        Generator gen;  // todo fix this
 
         // when
         var url = gen.buildUrl();
