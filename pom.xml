@@ -10,6 +10,7 @@
 
     <modules>
         <module>basic</module>
+        <module>spring-boot-beans</module>
     </modules>
 
     <properties>
