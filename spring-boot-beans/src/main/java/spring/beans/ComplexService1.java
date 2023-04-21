@@ -1,6 +1,5 @@
 package spring.beans;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -17,9 +16,4 @@ public final class ComplexService1 {
 
     // Start typing your code BELOW THIS LINE ONLY
 
-    @Autowired
-    public void setDependencies(RandomNumberService rs, SomeService ss) {
-        this.randomNumberService = rs;
-        this.someService = ss;
-    }
 }
